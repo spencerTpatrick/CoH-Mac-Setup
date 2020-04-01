@@ -2,12 +2,13 @@
 Setup for City of Heroes on a Mac
 
 1. Open Terminal (Finder > Applications > Utilities > Terminal)
-2. Install Brew - https://brew.sh/ - allows you to easily install other applications/files
-    1. Run: ```/bin/bash -c "$(curl -fsSL     https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
-3. Install xquartz if you don’t have it - allows you to run windows software on your Mac in a separate window
-    1. Run: ```brew cask install xquartz```
-4. Install wine - this allows you to run .exe (windows) files on Mac needed to retain City of Heroes data.  Original wine was deprecated with Mac updates, so we're installing a branched version
-    1. Run: ```brew cask install wine-stable```
+2. Run: ```/bin/bash -c "$(curl -fsSL     https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+    1. This will install Brew - https://brew.sh/ - allows you to easily install other applications/files
+3. Once that's finished, run: ```brew cask install xquartz```
+    1. This will install xquartz if you don’t have it - allows you to run windows software on your Mac in a separate window
+4. Once that's finished, run: ```brew cask install wine-stable```
+    1. This will install wine - this allows you to run .exe (windows) files on Mac needed to retain City of Heroes data
+    2. Original wine was deprecated with Mac updates, so we're installing a branched version
 5. Close Terminal
 6. Install Island Rum (Do Not Proceed Here Until Wine is Installed) - This is the City of Heroes application
     1. http://telstar.eekstudio.com/islandrum-mac.zip
